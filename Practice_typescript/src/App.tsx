@@ -112,7 +112,7 @@ function App() {
   return (
     <>
       <div>
-        <input type="text" placeholder="search here" className="input input-bordered w-full max-w-xs" onChange={(e)=>setQuery(e.target.value)} />
+        <input type="text" placeholder="search your name here" className="input input-bordered w-full max-w-xs" onChange={(e)=>setQuery(e.target.value)} />
         <button className="btn btn-active btn-ghost style={{ borderRadius: '0 5px 5px 0' }}">Search</button>
       </div>
 
